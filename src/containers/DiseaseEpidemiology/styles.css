@@ -1,0 +1,4 @@
+.recharts-bar.stats-dist .recharts-bar-rectangle .recharts-rectangle:hover {
+  transition: all 0.5s ease-in-out;
+  fill: #6e7def;
+}

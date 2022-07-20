@@ -1,0 +1,6 @@
+export const trialCatalystsKey = 'trialCatalysts'
+export const trialCatalystsNewsKey = 'trialCatalystsNews'
+export const trialCatalystsSecKey = 'trialCatalystsSec'
+export const marketNewsKey = 'marketMovingNews'
+export const newsByIDsKey = 'newsByIDs'
+export const newsByTagsKey = 'newsByTags'

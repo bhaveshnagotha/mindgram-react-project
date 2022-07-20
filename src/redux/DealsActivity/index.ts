@@ -1,0 +1,53 @@
+import reducer from './reducer'
+
+export default reducer
+export { fetchDealsDataKey, dealsFilterDataKey } from './constants'
+export {
+  SET_DEALS_MODAL_OPEN,
+  FETCH_DEALS_MODAL_DATA,
+  FETCH_DEALS_MODAL_DATA_FAILED,
+  FETCH_DEALS_MODAL_DATA_SUCCESS,
+  setDealsModalOpen,
+  fetchDealsModalData,
+  fetchDealsModalDataFailed,
+  fetchDealsModalDataSuccess,
+  FETCH_DEALS_DATA,
+  FETCH_DEALS_DATA_FAILED,
+  FETCH_DEALS_DATA_SUCCESS,
+  fetchDealsData,
+  fetchDealsDataFailed,
+  fetchDealsDataSuccess,
+  SET_FILTER_DATA,
+  setFilterData,
+  SET_SAVED_FILTER_DATA,
+  setSavedFilterData,
+  SET_DAYS_FILTER,
+  setDaysFilter,
+} from './actions'
+export {
+  dealsDataSelector,
+  isDealsModalOpenSelector,
+  dealsModalDataSelector,
+  isFetchingDealsModalDataSelector,
+  errorFetchingDealsModalDataSelector,
+  isFetchingDealsDataSelector,
+  errorFetchingDealsDataSelector,
+  investorsSelector,
+  indicationsSelector,
+  dealCountByStageSelector,
+  topDealsSelector,
+  fundingRoundSelector,
+  topApproachesSelector,
+  fundingDetailsSelector,
+  heatmapModalitySelector,
+  heatmapStageSelector,
+  topApproachesModalitySelector,
+  topApproachesTargetSelector,
+  totalFundingActivitySelector,
+  companiesFundedSelector,
+  totalInvestorsSelector,
+  filterDataSelector,
+  savedFilterDataSelector,
+  daysFilterSelector,
+} from './selectors'
+export { fetchDealsDataSagaWatcher } from './sagas'

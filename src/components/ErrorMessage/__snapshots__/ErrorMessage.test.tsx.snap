@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorMessage /> matches default snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`<ErrorMessage /> matches snapshot 1`] = `ShallowWrapper {}`;

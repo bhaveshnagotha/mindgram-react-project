@@ -1,0 +1,13 @@
+// Your variable overrides
+$sidebar-bg-color: #fbfbfc;
+
+.pro-inner-item {
+  padding: 0 20px 0 10px !important;
+}
+
+.pro-icon {
+  animation: none !important;
+}
+
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+
